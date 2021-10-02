@@ -94,6 +94,7 @@ namespace nnelson2e1
             this.input01ATextBox.Name = "input01ATextBox";
             this.input01ATextBox.Size = new System.Drawing.Size(77, 22);
             this.input01ATextBox.TabIndex = 0;
+            this.input01ATextBox.Text = "250";
             // 
             // result01TextBox
             // 
@@ -147,6 +148,7 @@ namespace nnelson2e1
             this.input02ATextBox.Name = "input02ATextBox";
             this.input02ATextBox.Size = new System.Drawing.Size(77, 22);
             this.input02ATextBox.TabIndex = 1;
+            this.input02ATextBox.Text = "4";
             // 
             // input02A
             // 
@@ -172,6 +174,7 @@ namespace nnelson2e1
             this.input03ATextBox.Name = "input03ATextBox";
             this.input03ATextBox.Size = new System.Drawing.Size(77, 22);
             this.input03ATextBox.TabIndex = 2;
+            this.input03ATextBox.Text = "true";
             // 
             // input03A
             // 
@@ -188,6 +191,7 @@ namespace nnelson2e1
             this.input03CTextBox.Name = "input03CTextBox";
             this.input03CTextBox.Size = new System.Drawing.Size(77, 22);
             this.input03CTextBox.TabIndex = 4;
+            this.input03CTextBox.Text = "4";
             // 
             // input03BTextBox
             // 
@@ -195,6 +199,7 @@ namespace nnelson2e1
             this.input03BTextBox.Name = "input03BTextBox";
             this.input03BTextBox.Size = new System.Drawing.Size(77, 22);
             this.input03BTextBox.TabIndex = 3;
+            this.input03BTextBox.Text = "0";
             // 
             // sideEffect03TextBox
             // 
@@ -220,6 +225,7 @@ namespace nnelson2e1
             this.input07BTextBox.Name = "input07BTextBox";
             this.input07BTextBox.Size = new System.Drawing.Size(77, 22);
             this.input07BTextBox.TabIndex = 6;
+            this.input07BTextBox.Text = "2/1/2019";
             // 
             // input07CTextBox
             // 
@@ -227,6 +233,7 @@ namespace nnelson2e1
             this.input07CTextBox.Name = "input07CTextBox";
             this.input07CTextBox.Size = new System.Drawing.Size(77, 22);
             this.input07CTextBox.TabIndex = 7;
+            this.input07CTextBox.Text = "1/9/2019";
             // 
             // result04TextBox
             // 
@@ -243,6 +250,7 @@ namespace nnelson2e1
             this.input07ATextBox.Name = "input07ATextBox";
             this.input07ATextBox.Size = new System.Drawing.Size(77, 22);
             this.input07ATextBox.TabIndex = 5;
+            this.input07ATextBox.Text = "1/1/2019";
             // 
             // input04A
             // 
@@ -268,6 +276,7 @@ namespace nnelson2e1
             this.input08BTextBox.Name = "input08BTextBox";
             this.input08BTextBox.Size = new System.Drawing.Size(77, 22);
             this.input08BTextBox.TabIndex = 10;
+            this.input08BTextBox.Text = "1000";
             // 
             // input08CTextBox
             // 
@@ -275,6 +284,7 @@ namespace nnelson2e1
             this.input08CTextBox.Name = "input08CTextBox";
             this.input08CTextBox.Size = new System.Drawing.Size(77, 22);
             this.input08CTextBox.TabIndex = 11;
+            this.input08CTextBox.Text = "Part time";
             // 
             // result05TextBox
             // 
@@ -291,6 +301,7 @@ namespace nnelson2e1
             this.input08ATextBox.Name = "input08ATextBox";
             this.input08ATextBox.Size = new System.Drawing.Size(77, 22);
             this.input08ATextBox.TabIndex = 9;
+            this.input08ATextBox.Text = "1001";
             // 
             // input05A
             // 
@@ -361,6 +372,7 @@ namespace nnelson2e1
             this.input07DTextBox.Name = "input07DTextBox";
             this.input07DTextBox.Size = new System.Drawing.Size(77, 22);
             this.input07DTextBox.TabIndex = 8;
+            this.input07DTextBox.Text = "true";
             // 
             // input08ETextBox
             // 
@@ -368,6 +380,7 @@ namespace nnelson2e1
             this.input08ETextBox.Name = "input08ETextBox";
             this.input08ETextBox.Size = new System.Drawing.Size(77, 22);
             this.input08ETextBox.TabIndex = 13;
+            this.input08ETextBox.Text = "2019";
             // 
             // input08DTextBox
             // 
@@ -375,6 +388,7 @@ namespace nnelson2e1
             this.input08DTextBox.Name = "input08DTextBox";
             this.input08DTextBox.Size = new System.Drawing.Size(77, 22);
             this.input08DTextBox.TabIndex = 12;
+            this.input08DTextBox.Text = "2018";
             // 
             // input09ATextBox
             // 
@@ -382,6 +396,7 @@ namespace nnelson2e1
             this.input09ATextBox.Name = "input09ATextBox";
             this.input09ATextBox.Size = new System.Drawing.Size(77, 22);
             this.input09ATextBox.TabIndex = 14;
+            this.input09ATextBox.Text = "0";
             // 
             // input09BTextBox
             // 
@@ -389,6 +404,7 @@ namespace nnelson2e1
             this.input09BTextBox.Name = "input09BTextBox";
             this.input09BTextBox.Size = new System.Drawing.Size(77, 22);
             this.input09BTextBox.TabIndex = 15;
+            this.input09BTextBox.Text = "4";
             // 
             // label2
             // 
@@ -432,6 +448,7 @@ namespace nnelson2e1
             this.input10DTextBox.Name = "input10DTextBox";
             this.input10DTextBox.Size = new System.Drawing.Size(77, 22);
             this.input10DTextBox.TabIndex = 19;
+            this.input10DTextBox.Text = "4";
             // 
             // result10TextBox
             // 
@@ -457,6 +474,7 @@ namespace nnelson2e1
             this.input10BTextBox.Name = "input10BTextBox";
             this.input10BTextBox.Size = new System.Drawing.Size(77, 22);
             this.input10BTextBox.TabIndex = 17;
+            this.input10BTextBox.Text = "2";
             // 
             // input10CTextBox
             // 
@@ -464,6 +482,7 @@ namespace nnelson2e1
             this.input10CTextBox.Name = "input10CTextBox";
             this.input10CTextBox.Size = new System.Drawing.Size(77, 22);
             this.input10CTextBox.TabIndex = 18;
+            this.input10CTextBox.Text = "3";
             // 
             // input10ATextBox
             // 
@@ -471,6 +490,7 @@ namespace nnelson2e1
             this.input10ATextBox.Name = "input10ATextBox";
             this.input10ATextBox.Size = new System.Drawing.Size(77, 22);
             this.input10ATextBox.TabIndex = 16;
+            this.input10ATextBox.Text = "1";
             // 
             // Form1
             // 

@@ -37,12 +37,14 @@ namespace nnelson2e1
             //#01
 
             decimal subtotal = Convert.ToDecimal(input01ATextBox.Text);
-            result01TextBox.Text = (subtotal >= 250 && subtotal < 500).ToString();
+            //result01TextBox.Text = (subtotal >= 250 && subtotal < 500).ToString();
+            result01TextBox.Text = (LogicalOperations.q01(subtotal)).ToString();
 
             //#02
 
-            decimal timeInService = Convert.ToDecimal(input02ATextBox.Text);
-            result02TextBox.Text = (timeInService <= 4 || timeInService >= 12).ToString();
+            int timeInService = Convert.ToInt32(input02ATextBox.Text);
+            //result02TextBox.Text = (timeInService <= 4 || timeInService >= 12).ToString();
+            result02TextBox.Text = (LogicalOperations.q02(timeInService)).ToString();
 
             //#3 - 6 initialization
 
@@ -52,26 +54,30 @@ namespace nnelson2e1
             //#03 
 
             int counter = Convert.ToInt32(input03BTextBox.Text);
-            result03TextBox.Text = (isValid == true && counter++ < years).ToString();
+            //result03TextBox.Text = (isValid == true && counter++ < years).ToString();
+            result03TextBox.Text = (LogicalOperations.q03(isValid,years,counter)).ToString();
             sideEffect03TextBox.Text = counter.ToString();
 
             //#04 
 
             counter = Convert.ToInt32(input03BTextBox.Text);
-            result04TextBox.Text = (isValid == true & counter++ < years).ToString();
+            //result04TextBox.Text = (isValid == true & counter++ < years).ToString();
+            result04TextBox.Text = (LogicalOperations.q04(isValid,years,counter)).ToString();
             sideEffect04TextBox.Text = counter.ToString();
 
             //#05
 
             counter = Convert.ToInt32(input03BTextBox.Text);
-            result05TextBox.Text = (isValid == true || counter++ < years).ToString();
+            //result05TextBox.Text = (isValid == true || counter++ < years).ToString();
+            result05TextBox.Text = (LogicalOperations.q05(isValid,years,counter)).ToString();
             sideEffect05TextBox.Text = counter.ToString();
 
 
             //#06
 
             counter = Convert.ToInt32(input03BTextBox.Text);
-            result06TextBox.Text = (isValid == true | counter++ < years).ToString();
+            //result06TextBox.Text = (isValid == true | counter++ < years).ToString();
+            result06TextBox.Text = (LogicalOperations.q06(isValid,years,counter)).ToString();
             sideEffect06TextBox.Text = counter.ToString();
 
             //#07
@@ -80,7 +86,8 @@ namespace nnelson2e1
             DateTime expirationDate = Convert.ToDateTime(input07BTextBox.Text);
             DateTime date = Convert.ToDateTime(input07CTextBox.Text);
             isValid = Convert.ToBoolean(input07DTextBox.Text);
-            result07TextBox.Text = (date > startDate && date < expirationDate || isValid).ToString();
+            //result07TextBox.Text = (date > startDate && date < expirationDate || isValid).ToString();
+            result07TextBox.Text = (LogicalOperations.q07(startDate,expirationDate,date,isValid)).ToString();
 
             //#08
 
@@ -89,16 +96,22 @@ namespace nnelson2e1
             string empType = input08CTextBox.Text;
             int startYear = Convert.ToInt32(input08DTextBox.Text);
             int currentYear = Convert.ToInt32(input08ETextBox.Text);
+            //result08TextBox.Text = (
+            //    ((thisYTD > lastYTD) || empType == "Part time") && startYear < currentYear
+            //    ).ToString();
             result08TextBox.Text = (
-                ((thisYTD > lastYTD) || empType == "Part time") && startYear < currentYear
+                (LogicalOperations.q08(thisYTD, lastYTD, empType, startYear, currentYear))
                 ).ToString();
 
             //#09
 
             counter = Convert.ToInt32(input09ATextBox.Text);
             years = Convert.ToInt32(input09BTextBox.Text);
+            //result09TextBox.Text = (
+            //    !(counter++ >= years)
+            //    ).ToString();
             result09TextBox.Text = (
-                !(counter++ >= years)
+                LogicalOperations.q09(counter,years)
                 ).ToString();
             sideEffect09TextBox.Text = counter.ToString();
 
@@ -116,14 +129,15 @@ namespace nnelson2e1
             //int z = y - d;
             //result10TextBox.Text = z.ToString();
             //result10TextBox.Text = (
-            //    a > b && b < c || c < d
+            //        a > b && b < c || c < d
             //    ).ToString();
             //bool v = a > b;
             //bool w = b < c;
             //bool x = c < d;
             //bool y = v && w;
             //bool z = y || x;
-            //result10TextBox.Text = z.ToString();
+            //result10TextBox.Text = z.ToString()
+            result10TextBox.Text = (LogicalOperations.q10(a,b,c,d)).ToString();
         }
     }
 }
