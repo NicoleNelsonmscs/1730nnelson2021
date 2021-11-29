@@ -45,6 +45,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nnelsonex3b", "nnelsonex3b\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nnelsonex3bUnitTests", "nnelsonex3bUnitTests\nnelsonex3bUnitTests.csproj", "{4EAA85D1-19DC-465A-B19B-3EA8D6BA98C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nnelson3c", "nnelson3c\nnelson3c.csproj", "{FB3805C6-BDFE-4EDE-9B67-A62B5EA3FBD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nnelson3cUnitTests", "nnelson3cUnitTests\nnelson3cUnitTests.csproj", "{19A0B769-CA0C-4F3C-B3CA-605CA16CE010}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +139,14 @@ Global
 		{4EAA85D1-19DC-465A-B19B-3EA8D6BA98C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EAA85D1-19DC-465A-B19B-3EA8D6BA98C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EAA85D1-19DC-465A-B19B-3EA8D6BA98C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB3805C6-BDFE-4EDE-9B67-A62B5EA3FBD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB3805C6-BDFE-4EDE-9B67-A62B5EA3FBD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB3805C6-BDFE-4EDE-9B67-A62B5EA3FBD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB3805C6-BDFE-4EDE-9B67-A62B5EA3FBD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19A0B769-CA0C-4F3C-B3CA-605CA16CE010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19A0B769-CA0C-4F3C-B3CA-605CA16CE010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19A0B769-CA0C-4F3C-B3CA-605CA16CE010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19A0B769-CA0C-4F3C-B3CA-605CA16CE010}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
